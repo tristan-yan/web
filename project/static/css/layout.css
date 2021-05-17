@@ -1,0 +1,75 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #eef3f3;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#topImage
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#caption
+{
+
+    background-color: rgb(254,123,33);
+}
+
+.bt{
+    margin-top: 3px;
+
+    background-color: rgb(254,123,33);
+    border-color: rgb(254,123,33);
+    color: white;
+}
+.bt:hover
+{
+
+    color: rgb(254,123,33) ;
+}
+#navg
+{
+
+    background-color: white;
+
+}
+
+#blkarea
+{
+
+    background-color: rgb(193,237,246);
+    height: 8px;
+
+}
+
+.alist
+{
+    display: block;!important;
+    color: #0f0f0f;!important;
+    margin-top: 10px;
+    margin-left: 30px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 80px;
+}
+
+
+
+
+
+
+

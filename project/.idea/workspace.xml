@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="248229d8-87a7-4634-9147-460bb440a904" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/proj$proj.coverage" NAME="proj Coverage Results" MODIFIED="1530010446422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/project$proj.coverage" NAME="proj Coverage Results" MODIFIED="1559289396015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rMt874zNTzhrt9E0IySMolaSGe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../login" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/static/newspackage/news4" />
+      <recent name="$PROJECT_DIR$/static/newspackage/news3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\main.py\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../premed/premed" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../premed/premed/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\main.py\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\main.py\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/test/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\main.py\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/flask" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/flask/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proj" type="Python.FlaskServer">
+      <module name="proj" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\software\Anaconda3\envs\Qinghai\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.init" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="248229d8-87a7-4634-9147-460bb440a904" name="Default" comment="" />
+      <created>1529546081139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529546081139</updated>
+      <workItem from="1560324427017" duration="724000" />
+      <workItem from="1560325238304" duration="6000" />
+      <workItem from="1562742104798" duration="9709000" />
+      <workItem from="1562826325898" duration="12493000" />
+      <workItem from="1562848115960" duration="1217000" />
+      <workItem from="1564120706828" duration="13358000" />
+      <workItem from="1564151942554" duration="10795000" />
+      <workItem from="1564276031390" duration="13953000" />
+      <workItem from="1617513629087" duration="285000" />
+      <workItem from="1618389107682" duration="1097000" />
+      <workItem from="1618398766167" duration="864000" />
+      <workItem from="1618402700280" duration="1758000" />
+      <workItem from="1618449676203" duration="938000" />
+      <workItem from="1618450740039" duration="824000" />
+      <workItem from="1618451609786" duration="1873000" />
+      <workItem from="1618453524347" duration="3000" />
+      <workItem from="1618453600580" duration="5000" />
+      <workItem from="1618453795165" duration="1792000" />
+      <workItem from="1618455685710" duration="597000" />
+      <workItem from="1618458383970" duration="1694000" />
+      <workItem from="1618460840366" duration="1135000" />
+      <workItem from="1618464122551" duration="1690000" />
+      <workItem from="1618467481044" duration="8000" />
+      <workItem from="1618467609090" duration="820000" />
+      <workItem from="1618469925287" duration="208000" />
+      <workItem from="1618470934097" duration="779000" />
+      <workItem from="1618471830788" duration="556000" />
+      <workItem from="1618639844573" duration="1756000" />
+      <workItem from="1618641642417" duration="823000" />
+      <workItem from="1618710275776" duration="787000" />
+      <workItem from="1618731241970" duration="1017000" />
+      <workItem from="1618735195153" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84418000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620995102763">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1620995102763" />
+    <state width="1480" height="148" key="GridCell.Tab.0.bottom" timestamp="1621249581889">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="148" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1621249581889" />
+    <state width="1480" height="148" key="GridCell.Tab.0.center" timestamp="1621249581889">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="148" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1621249581889" />
+    <state width="1480" height="148" key="GridCell.Tab.0.left" timestamp="1621249581889">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="148" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1621249581889" />
+    <state width="1480" height="148" key="GridCell.Tab.0.right" timestamp="1621249581889">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="148" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1621249581889" />
+    <state width="1480" height="315" key="GridCell.Tab.1.bottom" timestamp="1620638218270">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="315" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1620638218270" />
+    <state width="1480" height="315" key="GridCell.Tab.1.center" timestamp="1620638218270">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="315" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1620638218270" />
+    <state width="1480" height="315" key="GridCell.Tab.1.left" timestamp="1620638218270">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="315" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1620638218270" />
+    <state width="1480" height="315" key="GridCell.Tab.1.right" timestamp="1620638218270">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="315" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1620638218270" />
+    <state x="515" y="200" key="RollbackChangesDialog" timestamp="1621147972740">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="515" y="200" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1621147972740" />
+    <state x="0" y="0" width="1428" height="770" key="dock-window-1" timestamp="1620999441799">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="0" y="0" width="1428" height="770" key="dock-window-1/0.0.1500.960@0.0.1500.960" timestamp="1620999441799" />
+  </component>
+</project>

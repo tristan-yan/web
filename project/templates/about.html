@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title%}about {% endblock %}
+    <script src="/static/js/script.js"></script>
+
+{% block styles %}
+{{ super() }}
+<style>
+._about{
+
+font-size:50px;
+margin-right:50px;
+margin-left:50px;
+}
+#_cite{
+font-size:25px;
+margin-right:50px;
+margin-left:50px;
+}
+._about1{
+background-color:lightgray;
+height:100px;
+font-size:25px;
+margin-right:50px;
+margin-left:50px;
+}
+</style>
+{% endblock %}
+
+
+{% block body%}
+
+    <div class="_about">about</div>
+    <div class="_about1">123
+</div>
+    <div class="_about">citing</div>
+    <div id="_cite">Please cite the database as
+</div>
+        <div class="_about1">123
+</div>
+    <div class="_about">contacts</div>
+    <div class="_about1">该数据库是有哈尔滨工业大学生物信息研究院生成的，如果您有什么问题，可以联系我们：邮箱地址
+</div>
+
+
+
+
+{% endblock %}
+
+

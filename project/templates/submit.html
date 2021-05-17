@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title%}BROWSE {% endblock %}
+
+{% block styles %}
+{{ super()}}
+<style>
+.word{
+
+margin-bottom:50px;
+margin-right:50px;
+margin-left:50px;
+font-size:25px;
+
+}
+#submission{
+margin-right:50px;
+margin-left:50px;
+font-size:50px;
+}
+.submission{
+margin-top:50px;
+margin-bottom:50px;
+margin-right:50px;
+margin-left:50px;
+font-size:25px;
+}
+
+</style>
+{% endblock%}
+
+{% block body%}
+
+<div id="submission">Submission guide
+</div>
+<div class="word">
+    Each piece of information submitted to the database should have the following columns, and the meaning of each submission is as follows:</br>
+提交信息框1：具体含义</br>
+提交信息框2：具体含义</br>
+……</br>
+提交信息框11：具体含义</br>
+</div>
+<form class="submission">
+    submission1&nbsp&nbsp&nbsp<input type="text"><br>
+    submission2&nbsp&nbsp&nbsp<input type="text"><br>
+    submission3&nbsp&nbsp&nbsp<input type="text"><br>
+    submission4&nbsp&nbsp&nbsp<input type="text"><br>
+    submission5&nbsp&nbsp&nbsp<input type="text"><br>
+    submission6&nbsp&nbsp&nbsp<input type="text"><br>
+    submission7&nbsp&nbsp&nbsp<input type="text"><br>
+    submission8&nbsp&nbsp&nbsp<input type="text"><br>
+    submission9&nbsp&nbsp&nbsp<input type="text"><br>
+    submission10&nbsp<input type="text"><br>
+    submission11&nbsp<input type="text"><br>
+    <input type="submit" value="提交">
+
+</form>
+
+
+
+
+{% endblock %}

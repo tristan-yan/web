@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>{% block title%} {% endblock %}-title of database</title>
+
+    <script src="/static/tool/angular.min.js"></script>
+    <script src="/static/tool/jquery.min.js"></script>
+    <script src="/static/tool/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/tool/echarts.min.js"></script>>
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <link rel="stylesheet" href="/static/tool/bootstrap/css/bootstrap.min.css">
+    <script src="/static/js/contrl.js"></script>
+
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    {% block styles %} {% endblock %}
+    {% block head %} {% endblock %}
+
+
+</head>
+<body>
+<!-- 登录注册区域 -->
+<div id="caption" class="col-md-12 container"  style=background-image:url("/static/images/base.png")>
+
+    <div class="row col-md-12">
+
+    <div id="capimg" >
+    	<h1 class="headcap_style" style="color:white" font-size="1200px">
+                  title of database
+       </h1>
+       <h5 class="headcap_style" style="color:white">
+                  文章副标题
+       </h5>
+
+    </div>
+
+    <div id="opt" class="col-md-3 col-md-offset-10" >
+        {% if user %}
+            <a href="#" style="color: white" class="col-md-offset-1">
+                <span class="glyphicon glyphicon-user"></span>{{ user.username }}
+           </a>
+          <a href="{{ url_for('logout') }}" style="color: white" class="col-md-offset-1">
+                <span class="glyphicon glyphicon-user"></span>注销#}
+            </a>
+       {% else %}
+            <a href="{{ url_for('login') }}" style="color: white" class="col-md-offset-1">
+                <span class="glyphicon glyphicon-user"></span>登陆
+            </a>
+            <a href="{{ url_for('register') }}" style="color: white" class="col-md-offset-1">
+               <span class="glyphicon glyphicon-user"></span>注册
+          </a>
+       {% endif %}
+   </div>
+
+    </div>
+
+
+
+</div>
+
+<!-- 登录注册区域结束 -->
+
+<!-- blank area -->
+    <div id="blkarea" class="col-md-12">
+
+    </div>
+
+    <!-- area ending -->
+
+
+    <!-- 导航区域 -->
+    <div id="navg"  class="container col-md-12" >
+
+        <div class="row col-md-12" >
+            <ul class="nav nav-pills" >
+            <li><a href="{{ url_for('index') }}" style="font-size: large">HOME</a></li>
+            <li><a href="{{ url_for('browse') }}" style="font-size: large">BROWSE</a></li>
+                <li><a href="{{ url_for('search') }}" style="font-size: large">SEARCH</a></li>
+                <li><a href="{{ url_for('download') }}" style="font-size: large">DOWNLOAD</a></li>
+                <li><a href="{{ url_for('overview') }}" style="font-size: large">OVERVIEW</a></li>
+                <li><a href="{{ url_for('submit') }}" style="font-size: large">SUBMIT</a></li>
+                <li><a href="{{ url_for('about') }}" style="font-size: large">ABOUT</a></li>
+
+
+
+        </ul>
+        </div>
+
+
+    </div>
+
+    <p class="col-md-12"></p>
+
+    <p class="col-md-12"></p>
+    <!-- 导航区域结束-->
+
+    {% block body %}{% endblock %}
+<div class="col-md-12" >
+    <hr style="border:1px dashed grey"/>
+</div>
+    <div class="col-md-12" style="background-color:white; margin: auto">
+
+        <p class="col-md-12"></p>
+
+        <p class="col-md-12"></p>
+
+
+        <div class="col-md-12">
+
+             <p class="pgbottom" style="text-align: center">CopyRight © Center for Bioinformatics, Harbin Institute of Technology, China.
+</p>
+
+        </div>
+
+
+
+
+
+
+        <p class="col-md-12"></p>
+        <p class="col-md-12"></p>
+
+    </div>
+
+
+</body>
+</html>

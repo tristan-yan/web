@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title%}BROWSE {% endblock %}
+
+{% block styles %}
+{{ super()}}
+<style>
+.word{
+margin-bottom:50px;
+margin-right:50px;
+margin-left:50px;
+font-size:25px;
+}
+._download{
+margin-top:50px;
+margin-bottom:50px;
+margin-right:50px;
+margin-left:50px;
+font-size:25px;
+}
+
+</style>
+{% endblock%}
+
+{% block body%}
+
+    <div class="word">Our database provides a download page that enables users to download all experimentally supported lncRNA-cancer association data.
+</div>
+<a href="/user/test/xxxx.txt" download="文件名.txt" class="_download">点击下载xls格式文件</a>
+<a href="/user/test/xxxx.txt" download="文件名.txt" class="_download">点击下载txt格式文件</a>
+
+
+
+
+{% endblock %}

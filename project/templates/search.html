@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title%}BROWSE {% endblock %}
+
+    <script src="/static/js/script.js"></script>
+{% block styles %}
+{{ super()}}
+<style>
+
+.word{
+margin-right:50px;
+margin-left:50px;
+
+margin-bottom:50px;
+font-size:25px;
+
+}
+._select{
+font-size:25px;
+margin-right:50px;
+margin-left:50px;
+text-align:center;
+}
+</style>
+{% endblock%}
+{% block body%}
+
+    <div class=word>Click on the corresponding links below to select the filters.
+</div>
+<form class="_select">
+    <select>
+                <option>species</option>
+                <option>species2</option>
+                <option>species3</option>
+    </select>
+    <input type="text"/>
+    <input type="button" value="Search">
+
+
+</form>
+<div class=word>按疾病类别/名称进行search：如，cancer，过敏等。</br>
+按anti.species所属分类进行search：如，结核菌，巨细胞病毒，HIV-1等。</br>
+按物种进行search：如，HomoSapiens，Mouse等。</br>
+按MHC进行search：如，MHC I, MHC II等。</br>
+按TCR类别进行search：如，TRA, TRB, TRD, TRG等。
+
+</div>
+<form class="_select">
+    <select>
+                <option>search you want</option>
+
+    </select>
+    <input type="text"/>
+    <input type="button" value="Search">
+
+
+</form>
+<div class=word>按具体的疾病名称，序列或者基因名称进行搜索
+</div>
+
+
+
+
+{% endblock %}

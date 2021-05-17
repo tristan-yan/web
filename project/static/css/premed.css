@@ -1,0 +1,17 @@
+.main
+{
+    padding-top: 30px;
+    background: #ffffff;
+    width: 730px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+p
+{
+
+    padding: 7px 0;
+    word-wrap: break-word;
+    word-break: break-all;
+}
